@@ -1,4 +1,4 @@
-import {db} from "./server/db";
+import {db} from "./server/db.js";
 async function main() {
     await db.user.create({
       data: {

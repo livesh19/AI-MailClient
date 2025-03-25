@@ -38,6 +38,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "src/play.ts", "src/server/db.ts"  ],
   "exclude": ["node_modules"]
 }
